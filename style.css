@@ -1,0 +1,35 @@
+.calculator {
+    padding-top: 100px;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
+    
+  }
+  
+  button {
+    width: 54px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.507);
+  }
+
+  button:hover {
+    font-size: 28px;
+    background-color: azure;
+  }
+  
+  .input{
+    font-size: 19px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 1px 2px 1px rgb(0, 0, 0);
+  }
